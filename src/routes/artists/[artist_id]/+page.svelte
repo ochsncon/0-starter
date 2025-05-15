@@ -23,7 +23,7 @@
 </form>
 
 {#if form?.success}
-    Artist {form} updated
+    Artist {form.name} updated
 {/if}
 
 <!-- <p>{data._id}</p>
